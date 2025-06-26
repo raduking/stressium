@@ -13,13 +13,11 @@ public abstract class AbstractLoopPerformanceService<T extends AbstractLoopPerfo
 		tearDown();
 	}
 
-	public void setUp(final T customSettings) {
+	public void setUp(@SuppressWarnings("unused") final T customSettings) {
 		// empty
 	}
 
-	public Object runStep() {
-		return null;
-	}
+	public abstract Object runStep();
 
 	public void tearDown() {
 		// empty
