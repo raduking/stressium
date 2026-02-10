@@ -52,7 +52,7 @@
 		<project.build.sourceEncoding>UTF-8</project.build.sourceEncoding>
 
 		<!-- Depenedencies versions -->
-		<apiphany.spring.version>1.0.25</apiphany.spring.version>
+		<apiphany.spring.version>1.1.4</apiphany.spring.version>
 
 		<!-- Testing dependencies versions -->
 		<pitest.maven.plugin.version>1.22.0</pitest.maven.plugin.version>
