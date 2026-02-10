@@ -21,7 +21,7 @@
 	<packaging>jar</packaging>
 
 	<name>${project.groupId}:${project.artifactId}</name>
-	<description>A Java library for performance testing.</description>
+	<description>A Java library for performance testing with Spring integration.</description>
 	<url>https://github.com/raduking/stressium</url>
 
 	<licenses>
