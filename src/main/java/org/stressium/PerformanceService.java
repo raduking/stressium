@@ -3,8 +3,8 @@ package org.stressium;
 import java.time.Duration;
 import java.time.Instant;
 
-import org.apiphany.lang.Holder;
-import org.apiphany.lang.Temporals;
+import org.morphix.lang.Holder;
+import org.morphix.lang.Temporals;
 import org.stressium.model.PerformanceResult;
 import org.stressium.model.PerformanceSettings;
 

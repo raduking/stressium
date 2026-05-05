@@ -3,8 +3,8 @@ package org.stressium;
 import java.util.ArrayList;
 import java.util.List;
 
-import org.apiphany.lang.Holder;
-import org.apiphany.lang.accumulator.DurationAccumulator;
+import org.morphix.lang.Holder;
+import org.morphix.lang.accumulator.DurationAccumulator;
 import org.morphix.lang.thread.Threads;
 import org.morphix.lang.thread.Threads.ExecutionType;
 import org.slf4j.Logger;

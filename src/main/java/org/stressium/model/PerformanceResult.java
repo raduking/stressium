@@ -1,7 +1,7 @@
 package org.stressium.model;
 
 import org.apiphany.json.JsonBuilder;
-import org.apiphany.lang.accumulator.DurationAccumulator;
+import org.morphix.lang.accumulator.DurationAccumulator;
 
 public class PerformanceResult {
 
@@ -46,7 +46,7 @@ public class PerformanceResult {
 		return time;
 	}
 
-	public void setTime(Time time) {
+	public void setTime(final Time time) {
 		this.time = time;
 	}
 
@@ -59,7 +59,7 @@ public class PerformanceResult {
 		private Double p90;
 		private Double max;
 
-		public Time(DurationAccumulator accumulator, final Double total) {
+		public Time(final DurationAccumulator accumulator, final Double total) {
 			this.total = total;
 			this.average = accumulator.average();
 			this.p90 = accumulator.percentile(95);
